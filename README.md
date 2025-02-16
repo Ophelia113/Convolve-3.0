@@ -67,7 +67,7 @@ and submission.
 
 
 Problem Statement:
-Given various input features related to orders, customers, and logistics, predict the most probable time slot for mail delivery. The goal is to rank the top predicted slots based on probability scores to optimize last-mile delivery efficiency.
+Given various input features related to orders, customers, and logistics, predict the most probable time slot for mail delivery. The goal is to rank the all the 28 slots in decreasing order of likelihood of a customer opening the mail.
 
 Data Loading and Initial Inspection:
 
