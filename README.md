@@ -151,7 +151,7 @@ We fine-tuned the Sequential model by adjusting:
 For the  XGBoost, the calculated MAE was  **6.31**.  After implementing the Sequential neural network, the MAE further increased to  **7.85**.
 Since we did not have ground truth rankings we could not use Mean Average Precision as an evaluation metric. 
 
-TESTING DATA ANALYSIS AND PREPARATION 
+**TESTING DATA ANALYSIS AND PREPARATION** 
 
 Testing Data Preparation:
 
@@ -167,7 +167,7 @@ were decoded using a label encoder and sorted in descending order to rank the sl
 each customer.
 
 
-LIMITATIONS AND CHALLENGES FACED 
+**LIMITATIONS AND CHALLENGES FACED**
 
 
 We initially considered using LightFM and Neural Collaborative Filtering (NCF) for this task, 
@@ -181,7 +181,7 @@ on the train dataset could not be used directly for generating personalized rank
 test data.
 
 
-COMPARISON & CONCLUSION 
+**COMPARISON & CONCLUSION**
 
 
 Both  XGBoost  and  Neural Networks  struggled to deliver strong performance in terms of 
